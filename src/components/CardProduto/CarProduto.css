@@ -1,0 +1,16 @@
+.card button{
+    padding: 10px;
+    border-radius: 14px;
+    border: none;
+    background: linear-gradient(135deg,#ff512f, #f09819);
+    color: #fff;
+    font-weight: bold;
+    cursor: not-allowed;
+    transition: transform 0.2s , box-shadow 0.2s;
+}
+
+.card button:hover{
+
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 3);
+}
